@@ -1,0 +1,24 @@
+{
+  "name": "vuex-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "vue": "^2.5.17",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-loader": "^8.0.4",
+    "webpack": "^4.23.0",
+    "webpack-cli": "^3.1.2"
+  },
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
